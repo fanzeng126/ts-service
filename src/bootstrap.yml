@@ -1,0 +1,13 @@
+application:
+  name: "common-mb-service"
+  port: ${port:9010}
+  profiles: 
+    active: '${profiles:dev,debug}'
+    # active: '${profiles:product,debug}'
+eureka:
+  client:
+    serverUrls: '${eureka.servers:http://eureka.mc/eureka}'
+    # serverUrls: '${eureka.servers:http://eureka.eureka/eureka}'
+
+
+

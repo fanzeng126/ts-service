@@ -1,0 +1,13 @@
+---
+application.profiles: debug
+application:
+  port: 9010
+eureka:
+  registerEureka: false
+datasource:
+  logging: true
+mctech:
+  rpc:
+    service:
+      # key为服务的serviceId, value为对应的目标服务器的地址信息
+      'cq3-cq-api-service': 'http://localhost:9008/'

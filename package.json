@@ -1,0 +1,52 @@
+{
+  "name": "@mctech/common-mb-service",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 12"
+  },
+  "description": "物料公共站点",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mcpack3",
+    "build:dev": "mcpack3 --env development --w",
+    "start": "node ./dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.mctech.vip:dev/product-lines/common/services/common-mb-service.git"
+  },
+  "author": "mctech",
+  "license": "ISC",
+  "devDependencies": {
+    "@mctech/packer3": "^3.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.1.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-security": "^1.4.0"
+  },
+  "dependencies": {
+    "@mctech/biz-data-utils": "^0.2.0",
+    "@mctech/database-utils": "^10.0.9",
+    "@mctech/dp-impala-enhanced": "^6.0.4",
+    "@mctech/infra-cloud": "^4.1.2",
+    "@mctech/infra-configure": "^4.0.19",
+    "@mctech/infra-core": "^4.1.29",
+    "@mctech/infra-file": "^4.0.35",
+    "@mctech/infra-mq": "^5.0.23",
+    "@mctech/infra-sdk": "^4.0.19",
+    "@mctech/koa-mount-api": "^1.0.16",
+    "@mctech/redis-utils": "^1.0.35",
+    "@mctech/sequelize-impala": "^6.0.0-595",
+    "@mctech/sequelize-model-generator": "^0.7.1",
+    "capital-case": "^1.0.4",
+    "dayjs": "^1.10.6"
+  }
+}

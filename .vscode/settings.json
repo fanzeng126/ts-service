@@ -1,0 +1,9 @@
+{
+  "path-autocomplete.pathMappings": {
+    "@lib": "${folder}/src/lib",
+    "@utils": "${folder}/src/utils"
+  },
+  "cSpell.words": [
+    "mctech"
+  ]
+}
