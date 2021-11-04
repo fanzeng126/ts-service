@@ -1,27 +1,39 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    // 编译文件所在的目录
     "outDir": "dist",
     "sourceMap": true,
     "inlineSources": true,
+    // 指定编译为es的版本
     "target": "ESNext",
+    // 指定使用模块化的规范
     "module": "ESNext",
     "moduleResolution": "node",
+    // 是否对js进行编译，默认是false
     "allowJs": false,
+    // 是否检查js代码是否符合语法规范，默认是false
     "checkJs": false,
     "noUnusedLocals": true,
+    // 严格检查空值
     "strictNullChecks": true,
+    // 不允许隐式的any类型
     "noImplicitAny": true,
+    // 不允许不明确类型的this
     "noImplicitThis": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    // 是否移除注释
     "removeComments": false,
+    // 不编译生成js文件 noEmit
+    // 报错时，不编译生成js文件 noEmitOnError
+    // 严格模式 alwaysStrict: true
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
+    // 项目中使用得到的库
     "lib": [
-      "ESNext",
-      "DOM"
+      "ESNext"
     ],
     "types": [
       "node"
